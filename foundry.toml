@@ -1,0 +1,3 @@
+[profile.default]
+libs = ["lib"]
+fs_permissions = [{access = "read", path= "./"}]
