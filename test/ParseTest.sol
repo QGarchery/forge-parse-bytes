@@ -8,8 +8,8 @@ contract ParseTest is Test {
     using stdJson for string;
 
     struct S {
-        bytes32 id;
         address addr;
+        bytes32 id;
     }
 
     function testParse() public view {
